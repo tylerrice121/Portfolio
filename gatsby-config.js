@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "My_Portfolio",
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-styled-components`],
 };
