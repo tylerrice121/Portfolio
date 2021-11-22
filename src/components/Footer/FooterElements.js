@@ -10,6 +10,20 @@ export const StyledFooter = styled.footer `
     color: white;
     background-color: gray;
     height: 75px;
+    @media screen and (max-width: 768px){
+        height: 90px;
+        flex-direction: column;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    p{
+        font-size: small;
+        @media screen and (max-width: 768px){
+            margin-top: 10px;
+            align-self: center;
+            font-size: smaller;
+        }
+    }
 
 `;
 
