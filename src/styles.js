@@ -7,7 +7,6 @@ const GlobalStyle = createGlobalStyle`
         
     }
     html {
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.75px;
     margin: 0;  
@@ -37,7 +36,24 @@ export const StyledHeader = styled.header `
                     }
                 }
             }
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
         }
     }
 
+`;
+
+export const MobileIcon = styled.div`
+    display: none;
+
+    @media screen and (max-width: 768px){
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
 `;
