@@ -15,7 +15,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-
 export const StyledMain = styled.main `
     display: flex;
     flex-direction: column;

@@ -1,10 +1,11 @@
 import * as React from 'react'
+import { StyledFooter } from './FooterElements';
 
 const Footer = () => {
     return (
-        <footer>
+        <StyledFooter>
             <p>Copyright &copy; All Rights Reserved Tyler Rice {new Date().getFullYear()}</p>
-        </footer>
+        </StyledFooter>
     );
 };
 

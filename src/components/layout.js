@@ -1,6 +1,6 @@
 import * as React from 'react'
 import {GlobalStyle, StyledMain} from '../styles'
-import Footer from './footer'
+import Footer from './Footer/footer'
 import Header from './header'
 import Sidebar from './Sidebar'
 import { useState } from 'react'
