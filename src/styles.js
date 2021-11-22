@@ -18,9 +18,12 @@ export const GlobalStyle = createGlobalStyle`
 export const StyledMain = styled.main `
     display: flex;
     flex-direction: column;
+    align-content: center;
     min-height: 100vh;
     flex-grow: 1;
-    padding: 150px;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100%;
 `;
 
