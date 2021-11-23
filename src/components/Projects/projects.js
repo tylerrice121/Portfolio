@@ -1,10 +1,11 @@
 import React from 'react'
+import { StyledProjects } from './ProjectsElements'
 
 const Projects = () => {
     return (
-        <div>
+        <StyledProjects>
             <h1>Projects</h1>
-        </div>
+        </StyledProjects>
     )
 }
 

@@ -1,10 +1,11 @@
 import React from 'react'
+import { StyledHome } from './HomeElements'
 
 const Home = () => {
     return (
-        <div>
+        <StyledHome>
             <h1>Homepage</h1>
-        </div>
+        </StyledHome>
     )
 }
 

@@ -1,10 +1,11 @@
 import React from 'react'
+import { StyledAbout } from './AboutElements'
 
 const About = () => {
     return (
-        <div>
+        <StyledAbout>
             <h1>About</h1>
-        </div>
+        </StyledAbout>
     )
 }
 

@@ -1,9 +1,9 @@
 import * as React from 'react'
 import Layout from '../components/layout'
-import Home from './Home/index'
-import About from './About/about'
-import Projects from './Projects/projects'
-import Contacts from './Contacts/contacts'
+import Home from '../components/Home/index'
+import About from '../components/About/about'
+import Projects from '../components/Projects/projects'
+import Contact from '../components/Contact/contact'
 
 const Index = () => {
   return (
@@ -11,7 +11,7 @@ const Index = () => {
         <Home/>
         <About/>
         <Projects/>
-        <Contacts/>
+        <Contact/>
       </Layout>
   )
 }
