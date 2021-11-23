@@ -7,7 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
     }
     html {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.75px;
     margin: 0;  
     width: 100%;
@@ -21,9 +21,6 @@ export const StyledMain = styled.main `
     align-content: center;
     min-height: 100vh;
     flex-grow: 1;
-    margin-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
     width: 100%;
 `;
 
@@ -33,8 +30,9 @@ export const StyledHeader = styled.header `
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: gray;
+    background-color: #252934;
     height: 75px;
+    z-index: 10;
     nav{
         display: flex;
         align-items: center;
@@ -48,7 +46,7 @@ export const StyledHeader = styled.header `
                     color: inherit;
                     text-decoration: none;
                     :hover{
-                        text-decoration: underline;
+                        border-bottom: 2px solid #E21A6D;
                         cursor: pointer;
                     }
                 }

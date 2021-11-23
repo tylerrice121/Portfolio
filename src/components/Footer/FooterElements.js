@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer `
     align-items: center;
     justify-content: space-between;
     color: white;
-    background-color: gray;
+    background-color: #252934;
     height: 75px;
     @media screen and (max-width: 768px){
         height: 90px;
