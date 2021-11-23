@@ -49,5 +49,9 @@ export const StyledHome = styled.div `
             color: #E21A6D;
             border-color: #E21A6D;
         }
+        @media screen and (max-width: 768px) {
+        width: 160px;
+        height: 50px;
+    }
     }
 `;
