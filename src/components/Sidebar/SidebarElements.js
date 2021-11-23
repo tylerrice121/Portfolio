@@ -29,6 +29,7 @@ export const StyledSidebar = styled.aside`
                     text-decoration: none;
                     :hover{
                         text-decoration: underline;
+                        cursor: pointer;
                     }
                 }
             }

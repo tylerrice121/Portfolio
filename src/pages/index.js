@@ -5,7 +5,9 @@ import About from '../components/About/about'
 import Projects from '../components/Projects/projects'
 import Contact from '../components/Contact/contact'
 
+
 const Index = () => {
+
   return (
       <Layout>
         <Home/>

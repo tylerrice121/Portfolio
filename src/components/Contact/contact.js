@@ -3,7 +3,7 @@ import { StyledContact } from './ContactElements'
 
 const Contact = () => {
     return (
-        <StyledContact>
+        <StyledContact id="contact">
             <h1>Contact</h1>
         </StyledContact>
     )

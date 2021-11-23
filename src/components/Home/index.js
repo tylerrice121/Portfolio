@@ -3,7 +3,7 @@ import { StyledHome } from './HomeElements'
 
 const Home = () => {
     return (
-        <StyledHome>
+        <StyledHome id="home">
             <h1>Homepage</h1>
         </StyledHome>
     )

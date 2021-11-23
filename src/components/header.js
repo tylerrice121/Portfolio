@@ -1,8 +1,7 @@
 import * as React from 'react'
 import {FaBars} from 'react-icons/fa'
 import { StyledHeader, MobileIcon } from '../styles'
-import {Link} from 'gatsby'
-// import scrollTo from 'gatsby-plugin-smoothscroll';
+import {Link as LinkS } from 'react-scroll'
 
 
 const Header = ({toggle}) => {
@@ -10,10 +9,10 @@ const Header = ({toggle}) => {
         <StyledHeader> 
             <nav>
                 <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/projects'>Projects</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
+                    <li><LinkS to='home'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>Home</LinkS></li>
+                    <li><LinkS to='about'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>About</LinkS></li>
+                    <li><LinkS to='projects'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>Projects</LinkS></li>
+                    <li><LinkS to='contact' smooth={true} duration={450} spy={true} hashSpy={true} offset={-100}>Contact</LinkS></li>
                 </ul>
                 <MobileIcon onClick={toggle}>
                     <FaBars />

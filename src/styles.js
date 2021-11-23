@@ -21,7 +21,7 @@ export const StyledMain = styled.main `
     align-content: center;
     min-height: 100vh;
     flex-grow: 1;
-    padding-top: 120px;
+    margin-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
@@ -49,6 +49,7 @@ export const StyledHeader = styled.header `
                     text-decoration: none;
                     :hover{
                         text-decoration: underline;
+                        cursor: pointer;
                     }
                 }
                 @media screen and (max-width: 768px) {
