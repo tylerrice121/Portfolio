@@ -6,7 +6,7 @@ export const StyledHome = styled.div `
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #252934;
+    background-color: #1a1c24;
     margin-top: -50px;
     margin-bottom: 100px;
     color: white;
@@ -23,36 +23,39 @@ export const StyledHome = styled.div `
     }
     .logos {
         display: flex;
+        align-self: flex-end;
         padding-left: 50px;
         padding-right: 50px;
         margin: auto;
-        margin-bottom: 150px;
+        margin-bottom: 40px;
         width: 100%;
         justify-content: space-between;
         @media screen and (max-width: 768px) {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: -50px;
         }
         .leftline{
             width: 500px;
             border-bottom: 2px solid white;
             @media screen and (max-width: 768px) {
-            width: 325px;
+                width: 100vw;
         }
         }
         .rightline{
             width: 500px;
             border-bottom: 2px solid white;
             @media screen and (max-width: 768px) {
-            width: 325px;
-            margin-bottom: -75px;
+                display: none;
         }
         }
         .logolinks{
             margin-bottom: -30px;
             display: flex;
-            align-items: flex-end;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
             @media screen and (max-width: 768px) {
                 align-items: center;
                 justify-content: space-between;
@@ -60,6 +63,7 @@ export const StyledHome = styled.div `
                 margin-bottom: 20px;
             }  
             .link{
+                /* width: 10px; */
                 margin-left: 50px;
                 margin-right: 50px;
                 @media screen and (max-width: 768px) {

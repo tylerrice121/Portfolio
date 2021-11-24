@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
                 <div class="logolinks">
                     <a class="link" href='https://github.com/tylerrice121' target='_blank' rel="noreferrer" aria-label="github"><GitLogo/></a>
-                    <a class="link" href='https://www.linkedin.com/in/tyler-rice-1b525595/' target='_blank' rel="noreferrer" aria-label="linkedin" style={{width: '100px'}}><LinkLogo/></a>
+                    <a class="link" href='https://www.linkedin.com/in/tyler-rice-1b525595/' target='_blank' rel="noreferrer" aria-label="linkedin"><LinkLogo/></a>
                 </div>
                 <div class="rightline">
                 </div>

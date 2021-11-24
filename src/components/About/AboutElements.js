@@ -10,9 +10,8 @@ export const StyledAbout = styled.div `
     justify-content: center;
     color: white;
     .textsection{
-        width: 600px;
+        width: 50%;
         height: 500px;
         margin-top: 20px;
     }
-
 `;
