@@ -18,6 +18,8 @@ export const StyledHome = styled.div `
     }
     .info{
         position: absolute;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .logos {
         display: flex;
@@ -27,22 +29,46 @@ export const StyledHome = styled.div `
         margin-bottom: 150px;
         width: 100%;
         justify-content: space-between;
+        @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
         .leftline{
             width: 500px;
             border-bottom: 2px solid white;
+            @media screen and (max-width: 768px) {
+            width: 325px;
+        }
         }
         .rightline{
             width: 500px;
             border-bottom: 2px solid white;
+            @media screen and (max-width: 768px) {
+            width: 325px;
+            margin-bottom: -75px;
+        }
         }
         .logolinks{
             margin-bottom: -30px;
             display: flex;
             align-items: flex-end;
+            @media screen and (max-width: 768px) {
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }  
             .link{
                 margin-left: 50px;
                 margin-right: 50px;
-                
+                @media screen and (max-width: 768px) {
+                    margin-left: 0px;
+                    padding-right: 30px;
+                    margin: 0;
+                    width: 100px;
+                    text-align: center;
+            }  
             }
         }
     }

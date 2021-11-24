@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;  
     width: 100%;
     padding: 0;
+    background-color: #252934;
   }
 `;
 
@@ -26,8 +27,8 @@ export const StyledMain = styled.main `
 
 export const StyledHeader = styled.header `
     display: flex;
-    justify-content: flex-end;
     position: fixed;
+    justify-content: space-between;
     top: 0;
     width: 100%;
     background-color: #252934;
@@ -35,7 +36,14 @@ export const StyledHeader = styled.header `
     z-index: 10;
     nav{
         display: flex;
+        width: 100%;
+        justify-content: space-between;
         align-items: center;
+        img{
+            margin-left: 20px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
         ul{
             display: flex;
             list-style: none;
