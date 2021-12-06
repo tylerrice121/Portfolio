@@ -5,11 +5,12 @@ export const StyledSidebar = styled.aside`
     position: fixed;
     z-index: 999;
     width: 100%;
-    height: 100%;
-    background: white;
+    height: 30%;
+    background: #252934;
     display: flex;
+    border-bottom: 2px solid white;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     transition: 0.3s ease-in-out;
     opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
@@ -20,13 +21,18 @@ export const StyledSidebar = styled.aside`
         ul{
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
             list-style: none;
+            padding: 0;
+            margin-top: 20px;
             li{
-                margin-right: 3rem;
-                color: black;
+                color: white;
                 a{
                     color: inherit;
                     text-decoration: none;
+                    line-height: 60px;
+                    font-size: 20px;
                     :hover{
                         text-decoration: underline;
                         cursor: pointer;
@@ -38,14 +44,22 @@ export const StyledSidebar = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-    color: black;
+    color: white;
     font-size: 1.5rem;
 `;
 
 export const Icon = styled.div`
     position: absolute;
-    top: 1.2rem;
-    right: 1.5rem;
+    top: 27px;
+    right: 32px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+`;
+export const Logo = styled.div`
+    position: absolute;
+    top: 10px;
+    left: 20px;
     background: transparent;
     cursor: pointer;
     outline: none;

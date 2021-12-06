@@ -54,7 +54,7 @@ export const StyledHeader = styled.header `
                     color: inherit;
                     text-decoration: none;
                     :hover{
-                        border-bottom: 2px solid #E21A6D;
+                        border-bottom: 2px solid #1d7874;
                         cursor: pointer;
                     }
                 }

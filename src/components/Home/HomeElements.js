@@ -18,8 +18,8 @@ export const StyledHome = styled.div `
     }
     .info{
         position: absolute;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
     .logos {
         display: flex;
@@ -88,12 +88,13 @@ export const StyledHome = styled.div `
         font-weight: 700;
     }
     .description {
+        color: #6987ad;
     @media screen and (max-width: 768px) {
         font-size: 28px;
     }
     }
     .myname{
-        color: #E21A6D;
+        color: #98c1d9;
     @media screen and (max-width: 768px) {
         font-size: 38px;
     }
@@ -108,8 +109,8 @@ export const StyledHome = styled.div `
         width: 175px;
         height: 55px;
         &:hover{
-            color: #E21A6D;
-            border-color: #E21A6D;
+            color: white;
+            border-color: #1d7874;
         }
         @media screen and (max-width: 768px) {
         width: 160px;
