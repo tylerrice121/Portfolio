@@ -31,7 +31,7 @@ export const StyledHeader = styled.header `
     justify-content: space-between;
     top: 0;
     width: 100%;
-    background-color: #252934;
+    background-color: #1a1c24;
     height: 75px;
     z-index: 10;
     nav{

@@ -59,8 +59,8 @@ export const StyledHome = styled.div `
             @media screen and (max-width: 768px) {
                 align-items: center;
                 justify-content: space-between;
-                margin-top: 30px;
-                margin-bottom: 20px;
+                margin-top: 20px;
+                margin-bottom: 5px;
             }  
             .link{
                 /* width: 10px; */
@@ -69,6 +69,7 @@ export const StyledHome = styled.div `
                 @media screen and (max-width: 768px) {
                     margin-left: 0px;
                     padding-right: 30px;
+                    padding-left: 30px;
                     margin: 0;
                     width: 100px;
                     text-align: center;
