@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import typic from '/Users/tylerrice/Code/Portfolio/src/images/typic.jpg'
+
 
 export const StyledHome = styled.div `
     display: flex;
@@ -6,7 +8,9 @@ export const StyledHome = styled.div `
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #1a1c24;
+    background-image: url('/Users/tylerrice/Code/Portfolio/src/images/typic.jpg');
+    /* background-color: #212121; */
+    /* background-color: #cccccc; */
     margin-top: -50px;
     margin-bottom: 100px;
     color: white;
@@ -88,13 +92,16 @@ export const StyledHome = styled.div `
         font-weight: 700;
     }
     .description {
-        color: #6987ad;
+        color: #705394;
+        font-weight: 500;
     @media screen and (max-width: 768px) {
         font-size: 28px;
     }
     }
     .myname{
-        color: #98c1d9;
+        color: #BB86FA;
+        font-weight: 600;
+        font-size: 42px;
     @media screen and (max-width: 768px) {
         font-size: 38px;
     }

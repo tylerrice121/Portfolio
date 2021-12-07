@@ -27,7 +27,7 @@ export const StyledAbout = styled.div `
         img{
             width: 500px;
             align-self: center;
-            box-shadow:rgb(26, 28, 36) 20px -20px 0px -3px, rgb(29, 120, 116) 20px -20px;
+            /* box-shadow:rgb(99, 75, 131) 20px -20px; */
         }
     }
 `;

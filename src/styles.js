@@ -12,7 +12,8 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;  
     width: 100%;
     padding: 0;
-    background-color: #1a1c24;
+    background-image: url('/Users/tylerrice/Code/Portfolio/src/images/typic.jpg');
+    /* background-color: #1a1c24; */
   }
 `;
 
@@ -31,7 +32,7 @@ export const StyledHeader = styled.header `
     justify-content: space-between;
     top: 0;
     width: 100%;
-    background-color: #1a1c24;
+    background-color: #212121;
     height: 75px;
     z-index: 10;
     nav{
