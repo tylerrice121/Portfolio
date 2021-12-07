@@ -2,8 +2,8 @@ import * as React from 'react'
 import {FaBars} from 'react-icons/fa'
 import { StyledHeader, MobileIcon } from '../styles'
 import {Link as LinkS } from 'react-scroll'
-import logoTR from '../images/logoTR.png'
-import { useRef } from "react";
+import logoTR from '/Users/tylerrice/Code/Portfolio/public/images/logoTR.png'
+
 
 
 const Header = ({toggle}) => {

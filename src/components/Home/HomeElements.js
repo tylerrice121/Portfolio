@@ -1,16 +1,19 @@
 import styled from 'styled-components'
-import typic from '/Users/tylerrice/Code/Portfolio/src/images/typic.jpg'
-
+import serious from '/Users/tylerrice/Code/Portfolio/public/images/drama.jpg'
 
 export const StyledHome = styled.div `
+    background-image: url(${serious});
+    background-size: cover;
+    opacity: 0.5;
+    .BG{
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-image: url('/Users/tylerrice/Code/Portfolio/src/images/typic.jpg');
-    /* background-color: #212121; */
-    /* background-color: #cccccc; */
     margin-top: -50px;
     margin-bottom: 100px;
     color: white;
@@ -123,5 +126,17 @@ export const StyledHome = styled.div `
         width: 160px;
         height: 50px;
     }
+    }
+}
+    .BG::before {
+        /* background-image: url(${serious}); */
+        background-color: pink;
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.75;
     }
 `;

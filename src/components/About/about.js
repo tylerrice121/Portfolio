@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyledAbout } from './AboutElements'
-import { Paper } from '@mui/material';
-import typic from '/Users/tylerrice/Code/Portfolio/src/images/typic.jpg'
+import typic from '/Users/tylerrice/Code/Portfolio/public/images/typic.jpg'
+
 
 const About = () => {
     return (
