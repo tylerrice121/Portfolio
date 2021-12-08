@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const StyledHome = styled.div `
     img{
         top: 0;
-        opacity: 0.08;
+        opacity: 0.1;
         max-width: 100vw;
         min-height: 100vh;
         position: fixed;
@@ -105,6 +105,8 @@ export const StyledHome = styled.div `
     .description {
         color: #705394;
         font-weight: 400;
+        font-size: 44px;
+        font-style: bold;
     @media screen and (max-width: 768px) {
         font-size: 28px;
     }
@@ -112,7 +114,7 @@ export const StyledHome = styled.div `
     .myname{
         color: #a376db;
         font-weight: 600;
-        font-size: 42px;
+        font-size: 46px;
         font-weight: 400;
     @media screen and (max-width: 768px) {
         font-size: 32px;

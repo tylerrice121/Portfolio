@@ -8,7 +8,7 @@ export const StyledFooter = styled.footer `
     align-items: center;
     justify-content: space-between;
     color: white;
-    background-color: #252934;
+    background-color: #212121;
     height: 75px;
     padding-top: 0;
     .logodiv{

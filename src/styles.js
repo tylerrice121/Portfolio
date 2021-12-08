@@ -10,6 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     html {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.75px;
+    font-style: normal;
+    font-weight: 400;
     margin: 0;  
     width: 100%;
     padding: 0;
@@ -32,7 +34,7 @@ export const StyledHeader = styled.header `
     justify-content: space-between;
     top: 0;
     width: 100%;
-    background-color: transparent;
+    background-color: inherit;
     height: 75px;
     z-index: 10;
 

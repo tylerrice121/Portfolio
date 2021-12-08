@@ -5,12 +5,16 @@ export const StyledAbout = styled.div `
     padding: 75px;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 100px;
+    padding-top: 120px;
     background-color: #212121;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     justify-content: center;
     align-items: center;
     color: white;
+    @media screen and (max-width: 768px) {
+        padding-top: 75px;
+    }
+    
 
     .abtme{
         display: flex;
@@ -26,8 +30,9 @@ export const StyledAbout = styled.div `
             margin-left: 120px;
             width: 300px;
             text-align: center;
-            margin-bottom: -20px;
+            margin-bottom: -15px;
             z-index: 1;
+            font-weight: 400;
             @media screen and (max-width: 768px) {
             font-size: 24px;
             margin: 0;
@@ -67,7 +72,7 @@ export const StyledAbout = styled.div `
             width: 600px;
             padding: 20px;
             padding-top: 0;
-            background-color: #251F2D;
+            /* background-color: #251F2D; */
             @media screen and (max-width: 768px) {
                 width: 350px;
                 border: none;
@@ -75,6 +80,10 @@ export const StyledAbout = styled.div `
             .textsection{
                 height: 500px;
                 margin-top: 50px;
+                @media screen and (max-width: 768px) {
+                    margin-top: 20px;
+                    height: 300px;
+                }
             }
         }
         .imgdiv{
@@ -84,9 +93,11 @@ export const StyledAbout = styled.div `
             justify-content: center;
             width: 600px;
             height: 575px;
-            background-color: #251F2D;
+            /* background-color: #251F2D; */
             @media screen and (max-width: 768px) {
                 width: 350px;
+                border: none;
+                height: 300px;
             }
             img{
                 width: 500px;

@@ -25,14 +25,14 @@ export const StyledSidebar = styled.aside`
             text-align: center;
             list-style: none;
             padding: 0;
-            margin-top: 20px;
+            margin-top: 30px;
             li{
                 color: white;
                 a{
                     color: inherit;
                     text-decoration: none;
                     line-height: 60px;
-                    font-size: 18px;
+                    font-size: 16px;
                     :hover{
                         text-decoration: underline;
                         cursor: pointer;
