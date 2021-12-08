@@ -1,30 +1,38 @@
 import styled from 'styled-components'
-import serious from '/Users/tylerrice/Code/Portfolio/public/images/drama.jpg'
+
 
 export const StyledHome = styled.div `
-    background-image: url(${serious});
-    background-size: cover;
-    opacity: 0.5;
+    img{
+        top: 0;
+        opacity: 0.08;
+        max-width: 100vw;
+        min-height: 100vh;
+        position: fixed;
+        z-index: -1;
+        @media screen and (max-width: 1200px) {
+            max-width: 1200px;
+    }
+    }
     .BG{
-    background: rgba(0, 0, 0, 0);
-    color: #fff;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin-top: -50px;
-    margin-bottom: 100px;
-    color: white;
-    line-height: 45px;
-    text-align: left;
+        color: #fff;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin-top: -50px;
+        margin-bottom: 100px;
+        color: white;
+        line-height: 45px;
+        text-align: left;
     @media screen and (max-width: 768px) {
         padding-left: 40px;
         padding-right: 40px;
     }
     .info{
         position: absolute;
+        margin-top: 30px;
         margin-left: 30px;
         margin-right: 30px;
     }
@@ -128,15 +136,4 @@ export const StyledHome = styled.div `
     }
     }
 }
-    .BG::before {
-        /* background-image: url(${serious}); */
-        background-color: pink;
-        background-size: cover;
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        opacity: 0.75;
-    }
 `;

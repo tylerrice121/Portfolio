@@ -6,7 +6,7 @@ export const StyledSidebar = styled.aside`
     z-index: 999;
     width: 100%;
     height: 30%;
-    background: #252934;
+    background: #2b2b2b;
     display: flex;
     border-bottom: 2px solid white;
     flex-direction: column;
@@ -32,7 +32,7 @@ export const StyledSidebar = styled.aside`
                     color: inherit;
                     text-decoration: none;
                     line-height: 60px;
-                    font-size: 20px;
+                    font-size: 18px;
                     :hover{
                         text-decoration: underline;
                         cursor: pointer;

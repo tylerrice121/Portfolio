@@ -3,12 +3,13 @@ import { StyledHome } from './HomeElements'
 import Button from '@mui/material/Button'
 import {Link as LinkS } from 'react-scroll'
 import {GitLogo, LinkLogo } from '../Footer/FooterElements'
+import serious from '/Users/tylerrice/Code/Portfolio/public/images/drama.jpg'
 
 const Home = () => {
     return (
         <StyledHome id="home">
-            <div className="BG">
 
+            <div className="BG">
                 <div class="info">
                     <h1 class="myname">Tyler Rice</h1>
                     <h1 class="description">Full-stack software engineer</h1>
@@ -29,6 +30,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <img src={serious} alt="" />
 
         </StyledHome>
     )

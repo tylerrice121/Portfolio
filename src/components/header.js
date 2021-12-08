@@ -18,7 +18,7 @@ const Header = ({toggle}) => {
                     
                 </div>
                 <ul>
-                    <li><LinkS to='about'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>About</LinkS></li>
+                    <li><LinkS to='about'smooth={true} duration={450} spy={true} hashSpy={true}>About</LinkS></li>
                     <li><LinkS to='projects'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>Projects</LinkS></li>
                     <li><LinkS to='contact' smooth={true} duration={450} spy={true} hashSpy={true} offset={-100}>Contact</LinkS></li>
                 </ul>

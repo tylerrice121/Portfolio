@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
     *, *::before, *::after {
         box-sizing: border-box;
         margin: 0;
+        /* border: 1px solid white; */
     }
     html {
     font-family: 'Montserrat', sans-serif;
@@ -34,6 +35,7 @@ export const StyledHeader = styled.header `
     background-color: transparent;
     height: 75px;
     z-index: 10;
+
     nav{
         display: flex;
         width: 100%;
