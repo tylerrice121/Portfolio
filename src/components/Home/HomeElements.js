@@ -53,14 +53,14 @@ export const StyledHome = styled.div `
         }
         .leftline{
             width: 500px;
-            border-bottom: 2px solid white;
+            border-bottom: 0.5px solid white;
             @media screen and (max-width: 768px) {
                 width: 100vw;
         }
         }
         .rightline{
             width: 500px;
-            border-bottom: 2px solid white;
+            border-bottom: 0.5px solid white;
             @media screen and (max-width: 768px) {
                 display: none;
         }
@@ -123,7 +123,9 @@ export const StyledHome = styled.div `
     button{
         text-transform: none;
         color: white;
-        border-color: white;
+        /* border-color: white; */
+        border: 0.5px solid white;
+        border-radius: 0;
         margin-top: 15px;
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;

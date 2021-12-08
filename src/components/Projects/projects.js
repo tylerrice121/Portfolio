@@ -10,32 +10,65 @@ const Projects = () => {
         <StyledProjects id="projects">
             <h1>Projects</h1>
             <br />
-            <div className="projecttext">
-                <h3>APW</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
-                <Button variant="outlined">
-                    <a href="https://apw-app-4.netlify.app/" target='_blank' rel="noreferrer" aria-label="apw project">View Project</a>
-                </Button>
-                <Button variant="outlined">
-                    <a href="https://github.com/tylerrice121/Audio-Project-Workspace-Frontend" target='_blank' rel="noreferrer" aria-label="apw git">View on GitHub</a>
-                </Button>
+            <div className="project">
+                <div className="projecttext">
+                    <h3>Audio Project Workspace</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
+                    <p>Technologies used:</p>
+                    <div className="buttons">
+                        <Button variant="outlined">
+                            <a href="https://apw-app-4.netlify.app/" target='_blank' rel="noreferrer" aria-label="apw project">View Project</a>
+                        </Button>
+                        <Button variant="outlined">
+                            <a href="https://github.com/tylerrice121/Audio-Project-Workspace-Frontend" target='_blank' rel="noreferrer" aria-label="apw git">View GitHub</a>
+                        </Button>
+                    </div>
+                </div>
+                <div className="projectimg">
+                    <a href="https://apw-app-4.netlify.app/" target='_blank' rel="noreferrer" aria-label="apw project">
+                        <img src={APW} style={{width: "700px"}} alt="apw" />
+                    </a>
+                </div>
             </div>
-            <div className="projectimg">
-                <img src={APW} style={{width: "700px"}} alt="apw" />
+            <div className="project2">
+                <div className="projectimg">
+                    <a href="https://homecooked99675.herokuapp.com/" target='_blank' rel="noreferrer" aria-label="home cooked project">
+                        <img src={Cooked} style={{width: "700px"}} alt="apw" />
+                    </a>
+                </div>
+                <div className="projecttext">
+                    <h3>HomeCooked</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
+                    <p>Technologies used:</p>
+                    <div className="buttons">
+                        <Button variant="outlined">
+                            <a href="https://homecooked99675.herokuapp.com/" target='_blank' rel="noreferrer" aria-label="home cooked project">View Project</a>
+                        </Button>
+                        <Button variant="outlined">
+                            <a href="https://github.com/tylerrice121/Recipe-App" target='_blank' rel="noreferrer" aria-label="home cooked git">View GitHub</a>
+                        </Button>
+                    </div>
+                </div>
             </div>
-            <div className="projecttext">
-                <h3>HomeCooked</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
-            </div>
-            <div className="projectimg">
-                <img src={Cooked} style={{width: "700px"}} alt="apw" />
-            </div>
-            <div className="projecttext">
-                <h3>Trivia Night</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
-            </div>
-            <div className="projectimg">
-                <img src={Trivia} style={{width: "700px"}} alt="apw" />
+            <div className="project">
+                <div className="projecttext">
+                    <h3>Trivia Night</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
+                    <p>Technologies used:</p>
+                    <div className="buttons">
+                        <Button variant="outlined">
+                            <a href="https://tylerrice121.github.io/Project-1---Trivia-Night/" target='_blank' rel="noreferrer" aria-label="trivia project">View Project</a>
+                        </Button>
+                        <Button variant="outlined">
+                            <a href="https://github.com/tylerrice121/Project-1---Trivia-Night" target='_blank' rel="noreferrer" aria-label="trivia git">View GitHub</a>
+                        </Button>
+                    </div>
+                </div>
+                <div className="projectimg">
+                    <a href="https://tylerrice121.github.io/Project-1---Trivia-Night/" target='_blank' rel="noreferrer" aria-label="trivia project">
+                        <img src={Trivia} style={{width: "700px"}} alt="apw" />
+                    </a>
+                </div>
             </div>
         </StyledProjects>
     )

@@ -33,6 +33,7 @@ export const StyledAbout = styled.div `
             margin-bottom: -15px;
             z-index: 1;
             font-weight: 400;
+            font-size: 28px;
             @media screen and (max-width: 768px) {
             font-size: 24px;
             margin: 0;
@@ -41,14 +42,14 @@ export const StyledAbout = styled.div `
 
         }
         .left{
-            border-bottom: 2px solid #705294;
+            border-bottom: 0.5px solid #705294;
             width: 400px;
             @media screen and (max-width: 768px) {
                 display: none;
             }
         }
         .right{
-            border-bottom: 2px solid #705294;
+            border-bottom: 0.5px solid #705294;
             width: 402px;
             @media screen and (max-width: 768px) {
                 display: none;
@@ -67,8 +68,8 @@ export const StyledAbout = styled.div `
             padding: 0;
         }
         .titletext{
-            border-left: 2px solid #705294;
-            border-bottom: 2px solid #705294;
+            border-left: 0.5px solid #705294;
+            border-bottom: 0.5px solid #705294;
             width: 600px;
             padding: 20px;
             padding-top: 0;
@@ -87,8 +88,8 @@ export const StyledAbout = styled.div `
             }
         }
         .imgdiv{
-            border-right: 2px solid #705294;
-            border-bottom: 2px solid #705294;
+            border-right: 0.5px solid #705294;
+            border-bottom: 0.5px solid #705294;
             display: flex;
             justify-content: center;
             width: 600px;
