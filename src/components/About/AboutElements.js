@@ -16,6 +16,7 @@ export const StyledAbout = styled.div `
         display: flex;
         width: 1200px;
         justify-content: space-evenly;
+        
         @media screen and (max-width: 768px) {
             width: 300px;
             border-bottom: 2px solid #705294;
@@ -25,7 +26,8 @@ export const StyledAbout = styled.div `
             margin-left: 120px;
             width: 300px;
             text-align: center;
-            margin-bottom: -10px;
+            margin-bottom: -20px;
+            z-index: 1;
             @media screen and (max-width: 768px) {
             font-size: 24px;
             margin: 0;
@@ -54,6 +56,7 @@ export const StyledAbout = styled.div `
         padding: 75px;
         padding-top: 0;
         flex-direction: row;
+        
         @media screen and (max-width: 768px) {
             flex-direction: column;
             padding: 0;
@@ -64,6 +67,7 @@ export const StyledAbout = styled.div `
             width: 600px;
             padding: 20px;
             padding-top: 0;
+            background-color: #251F2D;
             @media screen and (max-width: 768px) {
                 width: 350px;
                 border: none;
@@ -80,6 +84,7 @@ export const StyledAbout = styled.div `
             justify-content: center;
             width: 600px;
             height: 575px;
+            background-color: #251F2D;
             @media screen and (max-width: 768px) {
                 width: 350px;
             }

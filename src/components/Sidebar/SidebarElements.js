@@ -6,9 +6,9 @@ export const StyledSidebar = styled.aside`
     z-index: 999;
     width: 100%;
     height: 30%;
-    background: #2b2b2b;
+    background: #121212;
     display: flex;
-    border-bottom: 2px solid white;
+    border-bottom: 0.5px solid white;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;

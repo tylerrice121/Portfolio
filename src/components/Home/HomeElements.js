@@ -104,17 +104,18 @@ export const StyledHome = styled.div `
     }
     .description {
         color: #705394;
-        font-weight: 500;
+        font-weight: 400;
     @media screen and (max-width: 768px) {
         font-size: 28px;
     }
     }
     .myname{
-        color: #BB86FA;
+        color: #a376db;
         font-weight: 600;
         font-size: 42px;
+        font-weight: 400;
     @media screen and (max-width: 768px) {
-        font-size: 38px;
+        font-size: 32px;
     }
     }
     button{
