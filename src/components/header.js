@@ -3,19 +3,33 @@ import {FaBars} from 'react-icons/fa'
 import { StyledHeader, MobileIcon } from '../styles'
 import {Link as LinkS } from 'react-scroll'
 import logoTR from '/Users/tylerrice/Code/Portfolio/public/images/logoTR.png'
+import { useState } from 'react'
 
 
 
 const Header = ({toggle}) => {
 
+    const [navbar, setNavbar] = useState(false)
+
+
+    const changeBG = () => {
+        console.log(window.scrollY)
+        if (window.scrollY >= 800) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBG)
+
     return (
-        <StyledHeader> 
+        <StyledHeader style={navbar ? {backgroundColor: '#212121'} : {backgroundColor: 'transparent'}}> 
             <nav className="navbar">
                 <div>
                     <LinkS to='home'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>
                         <img src={logoTR} alt="logoTR" style={{width: '75px'}}/>
                     </LinkS>
-                    
                 </div>
                 <ul>
                     <li><LinkS to='about'smooth={true} duration={450} spy={true} hashSpy={true}>About</LinkS></li>
