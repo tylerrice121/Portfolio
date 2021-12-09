@@ -35,6 +35,10 @@ export const StyledHome = styled.div `
         margin-top: 30px;
         margin-left: 30px;
         margin-right: 30px;
+        padding: 100px;
+        border-left: 1px solid #1d7874;
+        border-top: 1px solid #1d7874;
+        border-bottom: 1px solid #1d7874;
     }
     .logos {
         display: flex;
@@ -52,14 +56,14 @@ export const StyledHome = styled.div `
         margin-bottom: -50px;
         }
         .leftline{
-            width: 500px;
+            width: 400px;
             border-bottom: 0.5px solid white;
             @media screen and (max-width: 768px) {
                 width: 100vw;
         }
         }
         .rightline{
-            width: 500px;
+            width: 400px;
             border-bottom: 0.5px solid white;
             @media screen and (max-width: 768px) {
                 display: none;
@@ -112,7 +116,7 @@ export const StyledHome = styled.div `
     }
     }
     .myname{
-        color: #a376db;
+        color: #946ac9;
         font-weight: 600;
         font-size: 46px;
         font-weight: 400;
@@ -123,12 +127,12 @@ export const StyledHome = styled.div `
     button{
         text-transform: none;
         color: white;
-        /* border-color: white; */
         border: 0.5px solid white;
-        border-radius: 0;
+        border-radius: 4px;
         margin-top: 15px;
         font-family: 'Montserrat', sans-serif;
         font-size: 16px;
+        font-weight: 400;
         width: 175px;
         height: 55px;
         &:hover{

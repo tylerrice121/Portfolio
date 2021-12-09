@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const StyledProjects = styled.section `
+    /* border-top: 1px solid #1d7874; */
     min-height: 100vh;
     background-color: #212121;
     padding-bottom: 100px;
@@ -12,6 +13,7 @@ export const StyledProjects = styled.section `
         text-align: center;
         font-size: 28px;
     }
+
     .project{
         margin-bottom: 40px;
         padding-left: 20px;
@@ -44,7 +46,7 @@ export const StyledProjects = styled.section `
                     text-transform: none;
                     color: white;
                     border-color: white;
-                    border-radius: 0;
+                    border-radius: 4px;
                     margin-top: 15px;
                     font-family: 'Montserrat', sans-serif;
                     font-size: 14px;
@@ -58,7 +60,7 @@ export const StyledProjects = styled.section `
                         color: white;
                         text-decoration: none;
                         font-size: 14px;
-                        font-weight: 300;
+                        font-weight: 400;
                     }
                 }
 
@@ -108,7 +110,7 @@ export const StyledProjects = styled.section `
                     text-transform: none;
                     color: white;
                     border-color: white;
-                    border-radius: 0;
+                    border-radius: 4px;
                     margin-top: 15px;
                     font-family: 'Montserrat', sans-serif;
                     font-size: 14px;
@@ -122,7 +124,7 @@ export const StyledProjects = styled.section `
                         color: white;
                         text-decoration: none;
                         font-size: 14px;
-                        font-weight: 300;
+                        font-weight: 400;
                     }
                 }
 
