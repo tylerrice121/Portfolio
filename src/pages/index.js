@@ -4,7 +4,6 @@ import Home from '../components/Home/index'
 import About from '../components/About/about'
 import Projects from '../components/Projects/projects'
 import Contact from '../components/Contact/contact'
-import Resume from './resume'
 
 
 const Index = () => {
@@ -15,7 +14,6 @@ const Index = () => {
         <About/>
         <Projects/>
         <Contact/>
-        <Resume/>
       </Layout>
   )
 }
