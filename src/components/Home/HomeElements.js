@@ -26,7 +26,8 @@ export const StyledHome = styled.div `
         color: white;
         line-height: 45px;
         text-align: left;
-    @media screen and (max-width: 768px) {
+        @media screen and (max-width: 768px) {
+        min-height: 95vh;
         padding-left: 10px;
         padding-right: 10px;
     }

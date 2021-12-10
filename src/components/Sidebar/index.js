@@ -20,7 +20,7 @@ const Sidebar = ({toggle, isOpen}) => {
     const isBrowser = () => typeof window !== "undefined"
     isBrowser() && window.addEventListener('scroll', changeBG)
     return (
-        <StyledSidebar isOpen={isOpen} onClick={toggle} style={dropdown ? {border: 'none'} : {border: '1px solid white'}}>
+        <StyledSidebar isOpen={isOpen} onClick={toggle} style={dropdown ? {border: 'none'} : {borderBottom: '1px solid white'}}>
             <Logo>
                 <LinkS onClick={toggle} to='home'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>
                     <img src={logoTR} alt="logoTR" style={{width: '75px'}}/>

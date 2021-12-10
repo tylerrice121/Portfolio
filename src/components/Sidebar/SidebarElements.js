@@ -8,7 +8,7 @@ export const StyledSidebar = styled.aside`
     height: 50%;
     background: #212121;
     display: flex;
-    border-bottom: 0.5px solid white;
+    border-bottom: 1px solid white;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
