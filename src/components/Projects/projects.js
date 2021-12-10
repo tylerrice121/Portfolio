@@ -1,8 +1,8 @@
 import React from 'react'
 import { StyledProjects } from './ProjectsElements'
-import APW from '/Users/tylerrice/Code/Portfolio/src/images/apw dash.png'
-import Trivia from '/Users/tylerrice/Code/Portfolio/src/images/Screen Shot 2021-12-08 at 1.00.04 PM.png'
-import Cooked from '/Users/tylerrice/Code/Portfolio/src/images/homecooked dash.png'
+import APW from '../../images/apw dash.png'
+import Trivia from '../../images/Screen Shot 2021-12-08 at 1.00.04 PM.png'
+import Cooked from '../../images/homecooked dash.png'
 import Button from '@mui/material/Button'
 
 const Projects = () => {

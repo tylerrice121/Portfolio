@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyledAbout } from './AboutElements'
-import typic from '/Users/tylerrice/Code/Portfolio/src/images/typic.jpg'
+import typic from '../../images/typic.jpg'
 
 
 const About = () => {
