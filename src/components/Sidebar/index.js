@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyledSidebar, Icon, CloseIcon, Logo } from './SidebarElements'
 import {Link as LinkS } from 'react-scroll'
-import logoTR from '/Users/tylerrice/Code/Portfolio/public/images/logoTR.png'
+import logoTR from '/Users/tylerrice/Code/Portfolio/src/images/logoTR.png'
 
 const Sidebar = ({toggle, isOpen}) => {
     return (

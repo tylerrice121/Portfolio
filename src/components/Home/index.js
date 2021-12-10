@@ -3,7 +3,7 @@ import { StyledHome } from './HomeElements'
 import Button from '@mui/material/Button'
 import {Link as LinkS } from 'react-scroll'
 import {GitLogo, LinkLogo } from '../Footer/FooterElements'
-import serious from '/Users/tylerrice/Code/Portfolio/public/images/drama.jpg'
+import serious from '/Users/tylerrice/Code/Portfolio/src/images/drama.jpg'
 
 const Home = () => {
     return (
