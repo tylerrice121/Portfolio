@@ -44,14 +44,14 @@ export const StyledAbout = styled.div `
 
         }
         .left{
-            border-bottom: 0.5px solid #705294;
+            border-bottom: 1px solid #705294;
             width: 400px;
             @media screen and (max-width: 768px) {
                 display: none;
             }
         }
         .right{
-            border-bottom: 0.5px solid #705294;
+            border-bottom: 1px solid #705294;
             width: 402px;
             @media screen and (max-width: 768px) {
                 display: none;
@@ -70,8 +70,8 @@ export const StyledAbout = styled.div `
             padding: 0;
         }
         .titletext{
-            border-left: 0.5px solid #705294;
-            border-bottom: 0.5px solid #705294;
+            border-left: 1px solid #705294;
+            border-bottom: 1px solid #705294;
             width: 600px;
             padding: 20px;
             padding-top: 0;
@@ -90,8 +90,8 @@ export const StyledAbout = styled.div `
             }
         }
         .imgdiv{
-            border-right: 0.5px solid #705294;
-            border-bottom: 0.5px solid #705294;
+            border-right: 1px solid #705294;
+            border-bottom: 1px solid #705294;
             display: flex;
             justify-content: center;
             width: 600px;

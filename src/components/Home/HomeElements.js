@@ -27,10 +27,11 @@ export const StyledHome = styled.div `
         line-height: 45px;
         text-align: left;
         @media screen and (max-width: 768px) {
-        min-height: 95vh;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+            margin-bottom:50px;
+            min-height: 95vh;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     .info{
         position: absolute;
         margin-top: 30px;
@@ -71,7 +72,7 @@ export const StyledHome = styled.div `
         }
         .rightline{
             width: 400px;
-            border-bottom: 0.5px solid white;
+            border-bottom: 1px solid white;
             @media screen and (max-width: 768px) {
                 display: none;
         }

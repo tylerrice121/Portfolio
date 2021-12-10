@@ -72,13 +72,14 @@ export const StyledProjects = styled.section `
         padding-right: 20px;
         display: flex;
         height: 500px;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
-        border-right: 0.5px solid #705294;
-        border-top: 0.5px solid #705294;
+        border-right: 1px solid #705294;
+        border-top: 1px solid #705294;
         border-bottom: 1px solid #705294;
         @media screen and (max-width: 768px) {
             border-bottom: 1px solid #1d7874;
+            border-right: none;
             border-top: none;
             flex-direction: column;
             height: 700px;
@@ -170,11 +171,12 @@ export const StyledProjects = styled.section `
         height: 500px;
         justify-content: space-evenly;
         align-items: center;
-        border-left: 0.5px solid #705294;
-        border-top: 0.5px solid #705294;
+        border-left: 1px solid #705294;
+        border-top: 1px solid #705294;
         border-bottom: 1px solid #705294;
         @media screen and (max-width: 768px) {
             border-bottom: 1px solid #1d7874;
+            border-left: none;
             border-top: none;
             flex-direction: column;
             height: 700px;

@@ -9,13 +9,14 @@ export const StyledContact = styled.div `
     color: white;
     @media screen and (max-width: 768px) {
         padding-bottom: 20px;
-        
-        
     }
     h1{
         font-weight: 400;
         text-align: center;
         font-size: 28px;
+        @media screen and (max-width: 768px) {
+            font-size: 24px;
+        }
     }
     .formsection{
         margin-top: 30px;

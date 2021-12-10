@@ -13,7 +13,7 @@ const Header = ({toggle}) => {
 
 
     const changeBG = () => {
-        if (window.scrollY >= 800) {
+        if (window.scrollY >= 500) {
             setNavbar(true);
         } else {
             setNavbar(false);
