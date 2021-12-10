@@ -17,8 +17,15 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     margin: 0;  
     width: 100%;
+    height: 100%;
     padding: 0;
     background-color: #212121;
+    body{
+        background-color: #212121;
+        width: 100%;
+        height: 100%;
+        margin:0;
+    }
 }
 `;
 
@@ -91,4 +98,21 @@ export const MobileIcon = styled.div`
         font-size: 1.8rem;
         cursor: pointer;
     }
+    `;
+
+export const ResumeStyle = styled.div`
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    /* background-color: #212121; */
+    margin:0;
+    padding:0;
+    div{
+        img{
+            width: 700px;
+        }
+    }
+
 `;
