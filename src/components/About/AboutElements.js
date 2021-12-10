@@ -11,10 +11,16 @@ export const StyledAbout = styled.div `
     justify-content: center;
     align-items: center;
     color: white;
-    @media screen and (max-width: 768px) {
-        padding-top: 75px;
+    @media screen and (max-width: 1200px) {
+        justify-content: center;
+        padding-top: 100px;
         padding-left: 0;
         padding-right: 0;
+    }
+    @media screen and (max-width: 500px) {
+        padding-bottom: 50px;
+        min-height: 75vh;
+        padding-top: 75px;
     }
     
 
@@ -23,7 +29,12 @@ export const StyledAbout = styled.div `
         width: 1200px;
         justify-content: space-evenly;
         
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1200px) {
+            width: 700px;
+            justify-content: space-between;
+        }
+        @media screen and (max-width: 500px) {
+            justify-content: space-evenly;
             width: 100%;
             border-bottom: 1px solid #705294;
         }
@@ -36,24 +47,35 @@ export const StyledAbout = styled.div `
             z-index: 1;
             font-weight: 400;
             font-size: 28px;
-            @media screen and (max-width: 768px) {
-            font-size: 24px;
-            margin: 0;
-            line-height: 50px;
-        }
+            @media screen and (max-width: 1200px) {
+                font-size: 24px;
+                margin: 0;
+                margin-bottom: -25px;
+                line-height: 50px;
+            }
+            @media screen and (max-width: 500px) {
+                margin: 0;
+
+            }
 
         }
         .left{
             border-bottom: 1px solid #705294;
             width: 400px;
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1200px) {
+                width: 200px
+            }
+            @media screen and (max-width: 500px) {
                 display: none;
             }
         }
         .right{
             border-bottom: 1px solid #705294;
             width: 402px;
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1200px) {
+                width: 200px
+            }
+            @media screen and (max-width: 500px) {
                 display: none;
             }
         }
@@ -65,9 +87,25 @@ export const StyledAbout = styled.div `
         padding-top: 0;
         flex-direction: row;
         
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1200px) {
+            height: 850px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width:700px;
+            padding: 50px;
+            border-bottom: 1px solid #705294;
+            border-left: 1px solid #705294;
+            border-right: 1px solid #705294;
+        }
+
+        @media screen and (max-width: 500px) {
+            border: none;
+            height: 700px;
             flex-direction: column;
             padding: 0;
+            width: 100%;
+            justify-content: flex-start;
         }
         .titletext{
             border-left: 1px solid #705294;
@@ -76,14 +114,24 @@ export const StyledAbout = styled.div `
             padding: 20px;
             padding-top: 0;
             /* background-color: #251F2D; */
-            @media screen and (max-width: 768px) {
-                width: 350px;
+            @media screen and (max-width: 1200px) {
+                width: 90%;
+                height: 200px;
+                justify-self: center;
+                border: none;
+            }
+            @media screen and (max-width: 500px) {
+                width: 400px;
                 border: none;
             }
             .textsection{
                 height: 500px;
                 margin-top: 50px;
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 1200px) {
+                    margin-top: 20px;
+                    height: 200px;
+                }
+                @media screen and (max-width: 500px) {
                     margin-top: 20px;
                     height: 300px;
                 }
@@ -97,7 +145,12 @@ export const StyledAbout = styled.div `
             width: 600px;
             height: 575px;
             /* background-color: #251F2D; */
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1200px) {
+                width: 350px;
+                border: none;
+                height: 500px;
+            }
+            @media screen and (max-width: 500px) {
                 width: 350px;
                 border: none;
                 height: 300px;
@@ -105,7 +158,10 @@ export const StyledAbout = styled.div `
             img{
                 width: 500px;
                 align-self: center;
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 1200px) {
+                    width: 500px;
+                }
+                @media screen and (max-width: 500px) {
                     width: 300px;
                 }
             }

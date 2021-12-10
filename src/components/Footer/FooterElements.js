@@ -16,15 +16,16 @@ export const StyledFooter = styled.footer `
         width: 100px;
         justify-content: space-between;
     }
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 500px){
         height: 150px;
         flex-direction: column;
         padding-top: 15px;
         padding-bottom: 15px;
+        justify-content: space-evenly;
     }
     p{
         font-size: small;
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 500px){
             margin-top: 10px;
             margin-bottom: 10px;
             align-self: center;

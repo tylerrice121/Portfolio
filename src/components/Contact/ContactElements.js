@@ -7,14 +7,19 @@ export const StyledContact = styled.div `
     flex-direction: column;
     padding-bottom: 90px;
     color: white;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
+        min-height: 80vh;
+        justify-content: center;
+    }
+    @media screen and (max-width: 500px) {
         padding-bottom: 20px;
+        min-height: 70vh;
     }
     h1{
         font-weight: 400;
         text-align: center;
         font-size: 28px;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 500px) {
             font-size: 24px;
         }
     }
@@ -29,7 +34,7 @@ export const StyledContact = styled.div `
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 500px) {
             width: 350px;
             padding: 15px;
         }
@@ -51,7 +56,7 @@ export const StyledContact = styled.div `
         .formdiv{
             display: flex;
             justify-content: center;
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 500px) {
                 width: 300px;
 
             }

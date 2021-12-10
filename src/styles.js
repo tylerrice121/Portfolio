@@ -40,7 +40,7 @@ export const StyledHeader = styled.header `
     background-color: inherit;
     height: 75px;
     z-index: 10;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 500px) {
         border-bottom: 1px solid white;
         background-color:#212121 !important;
     }
@@ -69,7 +69,7 @@ export const StyledHeader = styled.header `
                         cursor: pointer;
                     }
                 }
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 500px) {
                     display: none;
                 }
             }
@@ -81,7 +81,7 @@ export const StyledHeader = styled.header `
 export const MobileIcon = styled.div`
     display: none;
     
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 500px){
         display: block;
         position: absolute;
         color: white;

@@ -8,14 +8,14 @@ export const StyledProjects = styled.section `
     color: white;
     padding-right: 40px;
     padding-left: 40px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         padding: 0;
     }
     h1{
         font-weight: 400;
         text-align: center;
         font-size: 28px;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1200px) {
             border-bottom: 1px solid #705294;
             line-height: 60px;
             font-size: 24px;
@@ -23,7 +23,50 @@ export const StyledProjects = styled.section `
     }
     .mobileimg{
         display: none;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1200px) {
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid white; */
+            height: 500px;
+            justify-content: center;
+            align-items: center;
+            .mobilebuttons{
+                display: flex;
+                justify-content: space-evenly;
+                button{
+                    text-transform: none;
+                    color: white;
+                    background-color: #212121;
+                    background-color:rgba(33, 33, 33, 0.6);
+                    border-color: white;
+                    border-radius: 4px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    width: 150px;
+                    height: 50px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    &:hover{
+                        color: white;
+                        border-color: #1d7874;
+                    }
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+                
+            }
+            img{
+                width: 80%;
+                opacity: 0.3;
+                position: absolute;
+                
+            }
+        }
+        @media screen and (max-width: 500px) {
             display: flex;
             flex-direction: column;
             /* border: 1px solid white; */
@@ -77,7 +120,7 @@ export const StyledProjects = styled.section `
         border-right: 1px solid #705294;
         border-top: 1px solid #705294;
         border-bottom: 1px solid #705294;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1200px) {
             border-bottom: 1px solid #1d7874;
             border-right: none;
             border-top: none;
@@ -93,7 +136,7 @@ export const StyledProjects = styled.section `
             padding-left: 20px;
             padding-right: 20px;
             width: 700px;
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1200px) {
                 width: 100%;
                 padding: 0;
             }
@@ -101,14 +144,14 @@ export const StyledProjects = styled.section `
                 font-weight: 500;
                 line-height: 50px;
                 border-bottom: 1px solid #1d7874;
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 1200px) {
                     text-align: center;
                     
                 }
             }
             .buttons{
                 display: flex;
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1200px) {
                 align-content: center;
                 justify-content: space-between;
             }
@@ -124,7 +167,7 @@ export const StyledProjects = styled.section `
                     font-size: 14px;
                     width: 140px;
                     height: 50px;
-                    @media screen and (max-width: 768px) {
+                    @media screen and (max-width: 1200px) {
                         /* margin: 0; */
                         display: none;
                     }
@@ -152,12 +195,12 @@ export const StyledProjects = styled.section `
                     opacity: 0.5;
                 }
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1200px) {
                 display: none;
             }
             img{
                 width: 700px;
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 1200px) {
                     width: 300px;
                 }
             }
@@ -174,7 +217,7 @@ export const StyledProjects = styled.section `
         border-left: 1px solid #705294;
         border-top: 1px solid #705294;
         border-bottom: 1px solid #705294;
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1200px) {
             border-bottom: 1px solid #1d7874;
             border-left: none;
             border-top: none;
@@ -190,7 +233,7 @@ export const StyledProjects = styled.section `
             padding-left: 20px;
             padding-right: 20px;
             width: 700px;
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1200px) {
                 width: 100%;
                 padding: 0;
             }
@@ -198,7 +241,7 @@ export const StyledProjects = styled.section `
                 font-weight: 500;
                 line-height: 50px;
                 border-bottom: 1px solid #1d7874;
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 1200px) {
                     text-align: center;
                 }
             }
@@ -216,7 +259,7 @@ export const StyledProjects = styled.section `
                     font-size: 14px;
                     width: 140px;
                     height: 50px;
-                    @media screen and (max-width: 768px) {
+                    @media screen and (max-width: 1200px) {
                         /* margin: 0; */
                         display: none;
                     }
@@ -244,12 +287,12 @@ export const StyledProjects = styled.section `
                     opacity: 0.5;
                 }
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 1200px) {
                 display: none;
             }
             img{
                 width: 700px;
-                @media screen and (max-width: 768px) {
+                @media screen and (max-width: 1200px) {
                     width: 300px;
                 }
             }
