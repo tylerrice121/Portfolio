@@ -26,17 +26,17 @@ export const StyledProjects = styled.section `
             justify-content: center;
             .mobilebuttons{
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-evenly;
                 button{
                     text-transform: none;
                     color: white;
                     background-color: #212121;
-                    background-color:rgba(33, 33, 33, 0.7);
+                    background-color:rgba(33, 33, 33, 0.6);
                     border-color: white;
                     border-radius: 4px;
                     font-family: 'Montserrat', sans-serif;
                     font-size: 14px;
-                    width: 100%;
+                    width: 150px;
                     height: 50px;
                     margin-left: 10px;
                     margin-right: 10px;
@@ -55,7 +55,7 @@ export const StyledProjects = styled.section `
             }
             img{
                 width: 100%;
-                opacity: 0.5;
+                opacity: 0.3;
                 position: absolute;
                 
             }

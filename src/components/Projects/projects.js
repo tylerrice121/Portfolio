@@ -15,6 +15,7 @@ const Projects = () => {
                     <h3>Audio Project Workspace</h3>
                     <div className="mobileimg">
                         <img src={APW} alt="apw" />
+                    
                         <div className="mobilebuttons">
                             <Button variant="outlined">
                                 <a href="https://apw-app-4.netlify.app/" target='_blank' rel="noreferrer" aria-label="apw project">View Project</a>
@@ -24,6 +25,7 @@ const Projects = () => {
                             </Button>
                         </div>
                     </div>
+                        <a href="">view project</a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
                     <p>Technologies used:</p>
                     <div className="buttons">
