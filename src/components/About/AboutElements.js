@@ -19,7 +19,7 @@ export const StyledAbout = styled.div `
     }
     @media screen and (max-width: 500px) {
         padding-bottom: 50px;
-        min-height: 75vh;
+        min-height: 100vh;
         padding-top: 75px;
     }
     
@@ -93,6 +93,7 @@ export const StyledAbout = styled.div `
             justify-content: space-between;
             align-items: center;
             width:700px;
+            height: 100%;
             padding: 50px;
             border-bottom: 1px solid #705294;
             border-left: 1px solid #705294;
@@ -101,7 +102,7 @@ export const StyledAbout = styled.div `
 
         @media screen and (max-width: 500px) {
             border: none;
-            height: 700px;
+            height: 100%;
             flex-direction: column;
             padding: 0;
             width: 100%;
@@ -116,24 +117,66 @@ export const StyledAbout = styled.div `
             /* background-color: #251F2D; */
             @media screen and (max-width: 1200px) {
                 width: 90%;
-                height: 300px;
+                height: 100%;
                 justify-self: center;
                 border: none;
             }
             @media screen and (max-width: 500px) {
-                width: 400px;
+                width: 100%;
                 border: none;
+                justify-self: flex-start;
+                padding-left: 25px;
             }
             .textsection{
                 height: 500px;
-                margin-top: 50px;
+                margin-top: 20px;
+                margin-left: 30px;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
                 @media screen and (max-width: 1200px) {
+                    margin-left: 0;
+                    margin-right: 0;
                     margin-top: 20px;
-                    height: 200px;
+                    height: 100%;
                 }
                 @media screen and (max-width: 500px) {
                     margin-top: 20px;
-                    height: 300px;
+                    height: 100%;
+                }
+            }
+        }
+        .imgdiv2{
+            border-right: 1px solid #705294;
+            border-bottom: 1px solid #705294;
+            display: none;
+            justify-content: center;
+            width: 600px;
+            height: 575px;
+            padding: 20px;
+            /* background-color: #251F2D; */
+            @media screen and (max-width: 1200px) {
+                display: flex;
+                width: 350px;
+                border: none;
+                height: 500px;
+            }
+            @media screen and (max-width: 500px) {
+                width: 350px;
+                border: none;
+                height: 350px;
+                padding: 0;
+            }
+            img{
+                width: 500px;
+                align-self: center;
+                margin: 0;
+                @media screen and (max-width: 1200px) {
+                    width: 500px;
+                }
+                @media screen and (max-width: 500px) {
+                    width: 300px;
                 }
             }
         }
@@ -144,13 +187,16 @@ export const StyledAbout = styled.div `
             justify-content: center;
             width: 600px;
             height: 575px;
+
             /* background-color: #251F2D; */
             @media screen and (max-width: 1200px) {
+                display: none;
                 width: 350px;
                 border: none;
                 height: 500px;
             }
             @media screen and (max-width: 500px) {
+                display: none;
                 width: 350px;
                 border: none;
                 height: 300px;

@@ -8,7 +8,7 @@ export const StyledContact = styled.div `
     padding-bottom: 90px;
     color: white;
     @media screen and (max-width: 1200px) {
-        min-height: 80vh;
+        min-height: 87vh;
         justify-content: center;
     }
     @media screen and (max-width: 500px) {
@@ -34,6 +34,10 @@ export const StyledContact = styled.div `
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        @media screen and (max-width: 1200px) {
+            width: 600px;
+            padding: 15px;
+        }
         @media screen and (max-width: 500px) {
             width: 350px;
             padding: 15px;

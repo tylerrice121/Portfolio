@@ -24,8 +24,11 @@ const Projects = () => {
                             </Button>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
-                    <p>Technologies used:</p>
+                    <p>APW is a full CRUD application with authorization that allows users to keep track of their audio projects. Users can upload images for the project and mp3s for the songs within those projects. The user can also add todo lists for each song within the projects to keep track of what needs to be done to finish the album. The frontend of this application was done in React.js and the backend was done with Node.js, Express and Mongoose.</p>
+                    <div className='techno'>   
+                        <p>Technologies used:</p>
+                        <p className="technologies">React Firebase Node.js Express JavaScript SASS Mongodb EJS</p>
+                    </div>
                     <div className="buttons">
                         <Button variant="outlined">
                             <a href="https://apw-app-4.netlify.app/" target='_blank' rel="noreferrer" aria-label="apw project">View Project</a>
@@ -61,8 +64,11 @@ const Projects = () => {
                             </Button>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
-                    <p>Technologies used:</p>
+                    <p>HomeCooked is a fully functional CRUD application created with Node.js. It allows users to view a variety of different recipes as well as add / edit recipes of their own. The application includes authentication and authorization. It also allows users to upload and replace images for their 'MyRecipes' tab.</p>
+                    <div className='techno'>   
+                        <p>Technologies used:</p>
+                        <p className="technologies">Node.js Express JavaScript jQuery CSS Mongodb Cloudinary EJS</p>
+                    </div>
                     <div className="buttons">
                         <Button variant="outlined">
                             <a href="https://homecooked99675.herokuapp.com/" target='_blank' rel="noreferrer" aria-label="home cooked project">View Project</a>
@@ -88,8 +94,11 @@ const Projects = () => {
                             </Button>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
-                    <p>Technologies used:</p>
+                    <p>Trivia Night is a front end trivia application with dynamically produced trivia questions.  It allows users to play through the game and see their score at the end.  It was built with JavaScript, CSS, HTML and AJAX to access a third party API</p>
+                    <div className='techno'>   
+                        <p>Technologies used:</p>
+                        <p className="technologies">JavaScript jQuery HTML CSS OpenTB-Database</p>
+                    </div>
                     <div className="buttons">
                         <Button variant="outlined">
                             <a href="https://tylerrice121.github.io/Project-1---Trivia-Night/" target='_blank' rel="noreferrer" aria-label="trivia project">View Project</a>

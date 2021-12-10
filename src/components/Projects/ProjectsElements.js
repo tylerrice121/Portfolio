@@ -149,6 +149,11 @@ export const StyledProjects = styled.section `
                     
                 }
             }
+            .technologies{
+                word-spacing: 10px;
+                color: #269c96;
+                margin-top: 5px;
+            }
             .buttons{
                 display: flex;
             @media screen and (max-width: 1200px) {
@@ -244,6 +249,11 @@ export const StyledProjects = styled.section `
                 @media screen and (max-width: 1200px) {
                     text-align: center;
                 }
+            }
+            .technologies{
+                word-spacing: 10px;
+                color: #269c96;
+                margin-top: 5px;
             }
             .buttons{
                 display: flex;

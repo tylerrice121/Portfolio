@@ -29,7 +29,7 @@ export const StyledHome = styled.div `
         text-align: left;
         @media screen and (max-width: 500px) {
             margin-bottom:50px;
-            min-height: 95vh;
+            min-height: 100vh;
             padding-left: 10px;
             padding-right: 10px;
         }
