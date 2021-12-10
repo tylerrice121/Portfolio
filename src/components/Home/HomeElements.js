@@ -43,7 +43,7 @@ export const StyledHome = styled.div `
             margin-top: 30px;
             border: none;
             padding: 20px;
-            margin-left: 20px;
+            width: 100%;
         }
     }
     .logos {
@@ -63,7 +63,7 @@ export const StyledHome = styled.div `
         }
         .leftline{
             width: 400px;
-            border-bottom: 0.5px solid white;
+            border-bottom: 1px solid white;
             @media screen and (max-width: 768px) {
                 width: 100vw;
         }
@@ -133,7 +133,7 @@ export const StyledHome = styled.div `
     button{
         text-transform: none;
         color: white;
-        border: 0.5px solid white;
+        border: 1px solid white;
         border-radius: 4px;
         margin-top: 15px;
         font-family: 'Montserrat', sans-serif;

@@ -85,7 +85,7 @@ export const StyledContact = styled.div `
                     text-transform: none;
                     align-self: center;
                     color: white;
-                    border: 0.5px solid white;
+                    border: 1px solid white;
                     border-radius: 4px;
                     margin-top: 15px;
                     font-family: 'Montserrat', sans-serif;
