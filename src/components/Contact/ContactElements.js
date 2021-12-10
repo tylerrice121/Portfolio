@@ -7,6 +7,11 @@ export const StyledContact = styled.div `
     flex-direction: column;
     padding-bottom: 90px;
     color: white;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 20px;
+        
+        
+    }
     h1{
         font-weight: 400;
         text-align: center;
@@ -19,8 +24,13 @@ export const StyledContact = styled.div `
         border-left: 1px solid #705294;
         border-right: 1px solid #705294;
         width: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         @media screen and (max-width: 768px) {
-            width: 300px;
+            width: 350px;
+            padding: 15px;
         }
         .email{
             text-align: center;
@@ -42,6 +52,7 @@ export const StyledContact = styled.div `
             justify-content: center;
             @media screen and (max-width: 768px) {
                 width: 300px;
+
             }
             .form{
                 display: flex;

@@ -5,8 +5,8 @@ export const StyledSidebar = styled.aside`
     position: fixed;
     z-index: 999;
     width: 100%;
-    height: 30%;
-    background: #121212;
+    height: 50%;
+    background: #212121;
     display: flex;
     border-bottom: 0.5px solid white;
     flex-direction: column;

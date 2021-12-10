@@ -40,6 +40,10 @@ export const StyledHeader = styled.header `
     background-color: inherit;
     height: 75px;
     z-index: 10;
+    @media screen and (max-width: 768px) {
+        border-bottom: 1px solid white;
+        background-color:#212121 !important;
+    }
 
     nav{
         display: flex;

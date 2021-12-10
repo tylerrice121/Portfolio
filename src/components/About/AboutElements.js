@@ -13,6 +13,8 @@ export const StyledAbout = styled.div `
     color: white;
     @media screen and (max-width: 768px) {
         padding-top: 75px;
+        padding-left: 0;
+        padding-right: 0;
     }
     
 
@@ -22,8 +24,8 @@ export const StyledAbout = styled.div `
         justify-content: space-evenly;
         
         @media screen and (max-width: 768px) {
-            width: 300px;
-            border-bottom: 2px solid #705294;
+            width: 100%;
+            border-bottom: 1px solid #705294;
         }
         h1{
             margin-right: 120px;

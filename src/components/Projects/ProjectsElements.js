@@ -15,6 +15,11 @@ export const StyledProjects = styled.section `
         font-weight: 400;
         text-align: center;
         font-size: 28px;
+        @media screen and (max-width: 768px) {
+            border-bottom: 1px solid #705294;
+            line-height: 60px;
+            font-size: 24px;
+        }
     }
     .mobileimg{
         display: none;
@@ -67,12 +72,14 @@ export const StyledProjects = styled.section `
         padding-right: 20px;
         display: flex;
         height: 500px;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         border-right: 0.5px solid #705294;
         border-top: 0.5px solid #705294;
         border-bottom: 1px solid #705294;
         @media screen and (max-width: 768px) {
+            border-bottom: 1px solid #1d7874;
+            border-top: none;
             flex-direction: column;
             height: 700px;
             padding: 0;
@@ -95,6 +102,7 @@ export const StyledProjects = styled.section `
                 border-bottom: 1px solid #1d7874;
                 @media screen and (max-width: 768px) {
                     text-align: center;
+                    
                 }
             }
             .buttons{
@@ -166,7 +174,11 @@ export const StyledProjects = styled.section `
         border-top: 0.5px solid #705294;
         border-bottom: 1px solid #705294;
         @media screen and (max-width: 768px) {
+            border-bottom: 1px solid #1d7874;
+            border-top: none;
             flex-direction: column;
+            height: 700px;
+            padding: 0;
         }
         .projecttext{
             display: flex;
@@ -177,12 +189,16 @@ export const StyledProjects = styled.section `
             padding-right: 20px;
             width: 700px;
             @media screen and (max-width: 768px) {
-                width: 300px;
+                width: 100%;
+                padding: 0;
             }
             h3{
                 font-weight: 500;
                 line-height: 50px;
                 border-bottom: 1px solid #1d7874;
+                @media screen and (max-width: 768px) {
+                    text-align: center;
+                }
             }
             .buttons{
                 display: flex;
@@ -198,6 +214,10 @@ export const StyledProjects = styled.section `
                     font-size: 14px;
                     width: 140px;
                     height: 50px;
+                    @media screen and (max-width: 768px) {
+                        /* margin: 0; */
+                        display: none;
+                    }
                     &:hover{
                         color: white;
                         border-color: #1d7874;
@@ -223,8 +243,7 @@ export const StyledProjects = styled.section `
                 }
             }
             @media screen and (max-width: 768px) {
-                width: 300px;
-
+                display: none;
             }
             img{
                 width: 700px;

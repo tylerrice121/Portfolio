@@ -15,7 +15,6 @@ const Projects = () => {
                     <h3>Audio Project Workspace</h3>
                     <div className="mobileimg">
                         <img src={APW} alt="apw" />
-                    
                         <div className="mobilebuttons">
                             <Button variant="outlined">
                                 <a href="https://apw-app-4.netlify.app/" target='_blank' rel="noreferrer" aria-label="apw project">View Project</a>
@@ -25,7 +24,6 @@ const Projects = () => {
                             </Button>
                         </div>
                     </div>
-                        <a href="">view project</a>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
                     <p>Technologies used:</p>
                     <div className="buttons">
@@ -43,14 +41,26 @@ const Projects = () => {
                     </a>
                 </div>
             </div>
+
             <div className="project2">
                 <div className="projectimg">
                     <a href="https://homecooked99675.herokuapp.com/" target='_blank' rel="noreferrer" aria-label="home cooked project">
-                        <img src={Cooked} alt="apw" />
+                        <img src={Cooked} alt="cooked" />
                     </a>
                 </div>
                 <div className="projecttext">
                     <h3>HomeCooked</h3>
+                    <div className="mobileimg">
+                        <img src={Cooked} alt="cooked" />
+                        <div className="mobilebuttons">
+                            <Button variant="outlined">
+                                <a href="https://homecooked99675.herokuapp.com/" target='_blank' rel="noreferrer" aria-label="home cooked project">View Project</a>
+                            </Button>
+                            <Button variant="outlined">
+                                <a href="https://github.com/tylerrice121/Recipe-App" target='_blank' rel="noreferrer" aria-label="home cooked git">View GitHub</a>
+                            </Button>
+                        </div>
+                    </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
                     <p>Technologies used:</p>
                     <div className="buttons">
@@ -63,9 +73,21 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+
             <div className="project">
                 <div className="projecttext">
                     <h3>Trivia Night</h3>
+                    <div className="mobileimg">
+                        <img src={Trivia} alt="trivia" />
+                        <div className="mobilebuttons">
+                            <Button variant="outlined">
+                                <a href="https://tylerrice121.github.io/Project-1---Trivia-Night/" target='_blank' rel="noreferrer" aria-label="trivia project">View Project</a>
+                            </Button>
+                            <Button variant="outlined">
+                                <a href="https://github.com/tylerrice121/Project-1---Trivia-Night" target='_blank' rel="noreferrer" aria-label="trivia git">View GitHub</a>
+                            </Button>
+                        </div>
+                    </div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto delectus temporibus asperiores, quae fuga mollitia magnam animi iste voluptas aperiam dolores unde explicabo cupiditate accusantium totam dignissimos consequatur repellat. Molestias!</p>
                     <p>Technologies used:</p>
                     <div className="buttons">
@@ -79,7 +101,7 @@ const Projects = () => {
                 </div>
                 <div className="projectimg">
                     <a href="https://tylerrice121.github.io/Project-1---Trivia-Night/" target='_blank' rel="noreferrer" aria-label="trivia project">
-                        <img src={Trivia} alt="apw" />
+                        <img src={Trivia} alt="trivia" />
                     </a>
                 </div>
             </div>

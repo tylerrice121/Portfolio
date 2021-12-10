@@ -24,7 +24,7 @@ const Header = ({toggle}) => {
     isBrowser() && window.addEventListener('scroll', changeBG)
 
     return (
-        <StyledHeader style={navbar ? {backgroundColor: '#212121'} : {backgroundColor: 'transparent'}}> 
+        <StyledHeader style={navbar ? {backgroundColor: '#212121', border: 'none'} : {backgroundColor: 'transparent'}}> 
             <nav className="navbar">
                 <div>
                     <LinkS to='home'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>

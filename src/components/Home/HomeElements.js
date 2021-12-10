@@ -40,8 +40,10 @@ export const StyledHome = styled.div `
         border-top: 1px solid #1d7874;
         border-bottom: 1px solid #1d7874;
         @media screen and (max-width: 768px) {
+            margin-top: 30px;
             border: none;
-            padding: 0;
+            padding: 20px;
+            margin-left: 20px;
         }
     }
     .logos {
