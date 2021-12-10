@@ -116,7 +116,7 @@ export const StyledAbout = styled.div `
             /* background-color: #251F2D; */
             @media screen and (max-width: 1200px) {
                 width: 90%;
-                height: 200px;
+                height: 300px;
                 justify-self: center;
                 border: none;
             }

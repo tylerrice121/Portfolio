@@ -120,6 +120,9 @@ export const StyledHome = styled.div `
         font-weight: 400;
         font-size: 44px;
         font-style: bold;
+    @media screen and (max-width: 1200px) {
+        font-size: 28px;
+    }
     @media screen and (max-width: 500px) {
         font-size: 28px;
     }
@@ -129,6 +132,9 @@ export const StyledHome = styled.div `
         font-weight: 600;
         font-size: 46px;
         font-weight: 400;
+    @media screen and (max-width: 1200px) {
+        font-size: 36px;
+    }
     @media screen and (max-width: 500px) {
         font-size: 32px;
     }
@@ -148,7 +154,7 @@ export const StyledHome = styled.div `
             color: white;
             border-color: #1d7874;
         }
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 1200px) {
         width: 160px;
         height: 50px;
     }
