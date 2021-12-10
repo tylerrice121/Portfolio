@@ -19,6 +19,9 @@ export const StyledContact = styled.div `
         border-left: 1px solid #705294;
         border-right: 1px solid #705294;
         width: 750px;
+        @media screen and (max-width: 768px) {
+            width: 300px;
+        }
         .email{
             text-align: center;
             a{
@@ -37,6 +40,9 @@ export const StyledContact = styled.div `
         .formdiv{
             display: flex;
             justify-content: center;
+            @media screen and (max-width: 768px) {
+                width: 300px;
+            }
             .form{
                 display: flex;
                 flex-direction: column;

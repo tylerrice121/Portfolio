@@ -27,8 +27,8 @@ export const StyledHome = styled.div `
         line-height: 45px;
         text-align: left;
     @media screen and (max-width: 768px) {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .info{
         position: absolute;
@@ -39,6 +39,10 @@ export const StyledHome = styled.div `
         border-left: 1px solid #1d7874;
         border-top: 1px solid #1d7874;
         border-bottom: 1px solid #1d7874;
+        @media screen and (max-width: 768px) {
+            border: none;
+            padding: 0;
+        }
     }
     .logos {
         display: flex;
