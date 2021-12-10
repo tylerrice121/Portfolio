@@ -20,7 +20,8 @@ const Header = ({toggle}) => {
         }
     }
 
-    window.addEventListener('scroll', changeBG)
+    const isBrowser = () => typeof window !== "undefined"
+    isBrowser() && window.addEventListener('scroll', changeBG)
 
     return (
         <StyledHeader style={navbar ? {backgroundColor: '#212121'} : {backgroundColor: 'transparent'}}> 
