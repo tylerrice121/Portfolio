@@ -27,7 +27,7 @@ export const StyledProjects = styled.section `
             display: flex;
             flex-direction: column;
             /* border: 1px solid white; */
-            height: 500px;
+            height: 400px;
             justify-content: center;
             align-items: center;
             .mobilebuttons{
@@ -137,8 +137,17 @@ export const StyledProjects = styled.section `
             padding-right: 20px;
             width: 700px;
             @media screen and (max-width: 1200px) {
+                justify-content: space-between;
                 width: 100%;
                 padding: 0;
+
+            }
+            p{
+                @media screen and (max-width: 1200px) {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+
             }
             h3{
                 font-weight: 500;
@@ -149,10 +158,16 @@ export const StyledProjects = styled.section `
                     
                 }
             }
-            .technologies{
-                word-spacing: 10px;
-                color: #269c96;
-                margin-top: 5px;
+            .techno{
+
+                .technologies{
+                    word-spacing: 10px;
+                    color: #269c96;
+                    margin-top: 5px;
+                    @media screen and (max-width: 1200px) {
+                        line-height: 22px;
+                    }
+                }
             }
             .buttons{
                 display: flex;
@@ -239,8 +254,17 @@ export const StyledProjects = styled.section `
             padding-right: 20px;
             width: 700px;
             @media screen and (max-width: 1200px) {
+                justify-content: space-evenly;
                 width: 100%;
                 padding: 0;
+
+            }
+            p{
+                @media screen and (max-width: 1200px) {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+
             }
             h3{
                 font-weight: 500;
