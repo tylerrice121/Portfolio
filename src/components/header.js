@@ -35,7 +35,7 @@ const Header = ({toggle}) => {
                     <li><LinkS to='about'smooth={true} duration={450} spy={true} hashSpy={true}>About</LinkS></li>
                     <li><LinkS to='projects'smooth={true} duration={450} offset={-100} spy={true} hashSpy={true}>Projects</LinkS></li>
                     <li><LinkS to='contact' smooth={true} duration={450} spy={true} hashSpy={true} offset={-100}>Contact</LinkS></li>
-                    <li><a href='/resume' target='_blank' rel="noreferrer" aria-label="linkedin">Resume</a></li>
+                    <li><a href='https://drive.google.com/file/d/1a2_aSBfWtOyJuhAGk4-Y3e1Czxyt9hxF/view?usp=sharing' target='_blank' rel="noreferrer" aria-label="resume">Resume</a></li>
                 </ul>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
