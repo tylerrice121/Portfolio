@@ -94,7 +94,7 @@ const Projects = () => {
                             </Button>
                         </div>
                     </div>
-                    <p>Trivia Night is a front end trivia application with dynamically produced trivia questions.  It allows users to play through the game and see their score at the end.  It was built with JavaScript, CSS, HTML and AJAX to access a third party API</p>
+                    <p>Trivia Night is a front end trivia application with dynamically produced trivia questions.  It allows users to play through the game and see their score at the end.  It was built with JavaScript, CSS, HTML and AJAX to access a third party API.</p>
                     <div className='techno'>   
                         <p>Technologies used:</p>
                         <p className="technologies">JavaScript jQuery HTML CSS OpenTB-Database</p>
