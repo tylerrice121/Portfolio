@@ -7,6 +7,7 @@ import emailjs from 'emailjs-com'
 import { useState } from 'react'
 
 
+
 const CssTextField = styled(TextField)({
     '& label.Mui-focused': {
         color: 'white',
@@ -38,7 +39,7 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_mbl9aw2', 'template_purab41', e.target, 'user_rLQvqJFBprgWlthr3SIpS')
+        emailjs.sendForm('service_mbl9aw2', 'template_purab41', e.target, `${process.env.GATSBY_API_KEY}`)
           .then((result) => {
               setSubmitted(true)
               console.log(result.text);
