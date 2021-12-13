@@ -284,7 +284,7 @@ export const StyledProjects = styled.section `
                     padding-left: 20px;
                     padding-right: 20px;
                 }
-                @media screen and (max-width: 1200px) {
+                @media screen and (max-width: 1000px) {
                     margin-top:0px;
                     padding-left: 20px;
                     padding-right: 20px;
