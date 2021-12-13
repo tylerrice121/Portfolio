@@ -54,7 +54,7 @@ const Projects = () => {
                 <div className="projecttext">
                     <h3>HomeCooked</h3>
                     <div className="mobileimg">
-                        <img src={Cooked} alt="cooked" />
+                        <img className="homecooked" src={Cooked} alt="cooked" />
                         <div className="mobilebuttons">
                             <Button variant="outlined">
                                 <a href="https://homecooked99675.herokuapp.com/" target='_blank' rel="noreferrer" aria-label="home cooked project">View Project</a>

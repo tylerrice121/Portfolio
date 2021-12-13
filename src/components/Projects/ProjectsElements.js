@@ -60,10 +60,15 @@ export const StyledProjects = styled.section `
                 
             }
             img{
-                width: 80%;
+                width: 75%;
                 opacity: 0.3;
                 position: absolute;
                 
+            }
+            .homecooked{
+                width: 70%;
+                opacity: 0.3;
+                position: absolute;
             }
         }
         @media screen and (max-width: 500px) {
@@ -104,8 +109,12 @@ export const StyledProjects = styled.section `
             img{
                 width: 100%;
                 opacity: 0.3;
-                position: absolute;
-                
+                position: absolute;  
+            }
+            .homecooked{
+                width: 100%;
+                opacity: 0.3;
+                position: absolute;  
             }
         }
     }
@@ -144,6 +153,12 @@ export const StyledProjects = styled.section `
             }
             p{
                 @media screen and (max-width: 1200px) {
+                    margin-top:20px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                @media screen and (max-width: 1000px) {
+                    margin-top:0;
                     padding-left: 20px;
                     padding-right: 20px;
                 }
@@ -155,7 +170,11 @@ export const StyledProjects = styled.section `
                 border-bottom: 1px solid #1d7874;
                 @media screen and (max-width: 1200px) {
                     text-align: center;
-                    
+                    margin-bottom: 20px;
+                }
+                @media screen and (max-width: 1000px) {
+                    text-align: center;
+                    margin-bottom: 0px;
                 }
             }
             .techno{
@@ -220,8 +239,8 @@ export const StyledProjects = styled.section `
             }
             img{
                 width: 700px;
-                @media screen and (max-width: 1200px) {
-                    width: 300px;
+                @media screen and (max-width: 1600px) {
+                    width: 650px;
                 }
             }
         }
@@ -254,13 +273,19 @@ export const StyledProjects = styled.section `
             padding-right: 20px;
             width: 700px;
             @media screen and (max-width: 1200px) {
-                justify-content: space-evenly;
+                justify-content: space-between;
                 width: 100%;
                 padding: 0;
 
             }
             p{
                 @media screen and (max-width: 1200px) {
+                    margin-top:20px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                @media screen and (max-width: 1200px) {
+                    margin-top:0px;
                     padding-left: 20px;
                     padding-right: 20px;
                 }
@@ -272,15 +297,30 @@ export const StyledProjects = styled.section `
                 border-bottom: 1px solid #1d7874;
                 @media screen and (max-width: 1200px) {
                     text-align: center;
+                    margin-bottom: 20px;
+                }
+                @media screen and (max-width: 1000px) {
+                    text-align: center;
+                    margin-bottom: 0px;
                 }
             }
-            .technologies{
-                word-spacing: 10px;
-                color: #269c96;
-                margin-top: 5px;
+            .techno{
+
+                .technologies{
+                    word-spacing: 10px;
+                    color: #269c96;
+                    margin-top: 5px;
+                    @media screen and (max-width: 1200px) {
+                        line-height: 22px;
+                    }
+                }
             }
             .buttons{
                 display: flex;
+            @media screen and (max-width: 1200px) {
+                align-content: center;
+                justify-content: space-between;
+            }
 
                 button{
                     margin-right: 40px;
@@ -326,8 +366,8 @@ export const StyledProjects = styled.section `
             }
             img{
                 width: 700px;
-                @media screen and (max-width: 1200px) {
-                    width: 300px;
+                @media screen and (max-width: 1600px) {
+                    width: 650px;
                 }
             }
         }
