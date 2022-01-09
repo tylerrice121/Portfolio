@@ -3,6 +3,7 @@ import { StyledProjects } from './ProjectsElements'
 import APW from '../../images/apw dash.png'
 import Trivia from '../../images/Screen Shot 2021-12-08 at 1.00.04 PM.png'
 import Cooked from '../../images/homecooked dash.png'
+import Beat from '../../images/1.png'
 import Button from '@mui/material/Button'
 
 const Projects = () => {
@@ -82,9 +83,50 @@ const Projects = () => {
 
             <div className="project">
                 <div className="projecttext">
+                    <h3>TR Beat Pad</h3>
+                    <div className="mobileimg">
+                        <img src={Beat} alt="trivia" />
+                        <div className="mobilebuttons">
+                            <Button variant="outlined">
+                                <a href="https://trbeatpad.netlify.app/" target='_blank' rel="noreferrer" aria-label="beat project">View Project</a>
+                            </Button>
+                            <Button variant="outlined">
+                                <a href="https://github.com/tylerrice121/trdrumset" target='_blank' rel="noreferrer" aria-label="beat git">View GitHub</a>
+                            </Button>
+                        </div>
+                    </div>
+                    <p>The TR Beat Pad is a fully functional and responsive audio triggering device. The user can touch each pad and trigger a sound with preloaded audio files that were created in Pro Tools and Ableton. This application works on touch screens as well as desktops. When on the desktop - the user can trigger each sound using these keys: 'W E R A S D'.</p>
+                    <div className='techno'>   
+                        <p>Technologies used:</p>
+                        <p className="technologies">React JavaScript CSS SASS ProTools Ableton</p>
+                    </div>
+                    <div className="buttons">
+                        <Button variant="outlined">
+                            <a href="https://trbeatpad.netlify.app/" target='_blank' rel="noreferrer" aria-label="beat project">View Project</a>
+                        </Button>
+                        <Button variant="outlined">
+                            <a href="https://github.com/tylerrice121/trdrumset" target='_blank' rel="noreferrer" aria-label="beat git">View GitHub</a>
+                        </Button>
+                    </div>
+                </div>
+                <div className="projectimg">
+                    <a href="https://trbeatpad.netlify.app/" target='_blank' rel="noreferrer" aria-label="beat project">
+                        <img src={Beat} alt="trivia" />
+                    </a>
+                </div>
+            </div>
+
+
+            <div className="project2">
+                <div className="projectimg">
+                    <a href="https://tylerrice121.github.io/Project-1---Trivia-Night/" target='_blank' rel="noreferrer" aria-label="trivia project">
+                        <img src={Trivia} alt="cooked" />
+                    </a>
+                </div>
+                <div className="projecttext">
                     <h3>Trivia Night</h3>
                     <div className="mobileimg">
-                        <img src={Trivia} alt="trivia" />
+                        <img className="homecooked" src={Trivia} alt="trivia" />
                         <div className="mobilebuttons">
                             <Button variant="outlined">
                                 <a href="https://tylerrice121.github.io/Project-1---Trivia-Night/" target='_blank' rel="noreferrer" aria-label="trivia project">View Project</a>
@@ -107,11 +149,6 @@ const Projects = () => {
                             <a href="https://github.com/tylerrice121/Project-1---Trivia-Night" target='_blank' rel="noreferrer" aria-label="trivia git">View GitHub</a>
                         </Button>
                     </div>
-                </div>
-                <div className="projectimg">
-                    <a href="https://tylerrice121.github.io/Project-1---Trivia-Night/" target='_blank' rel="noreferrer" aria-label="trivia project">
-                        <img src={Trivia} alt="trivia" />
-                    </a>
                 </div>
             </div>
         </StyledProjects>

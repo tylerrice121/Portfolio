@@ -93,7 +93,7 @@ export const MobileIcon = styled.div`
         font-size: 1.8rem;
         cursor: pointer;
     }
-    `;
+`;
 
 export const ResumeStyle = styled.div`
     height: 100%;
