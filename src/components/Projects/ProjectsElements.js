@@ -30,6 +30,8 @@ export const StyledProjects = styled.section `
             height: 400px;
             justify-content: center;
             align-items: center;
+            margin-top: 20px;
+            margin-bottom: 40px;
             .mobilebuttons{
                 display: flex;
                 justify-content: space-evenly;
@@ -153,7 +155,7 @@ export const StyledProjects = styled.section `
             }
             p{
                 @media screen and (max-width: 1200px) {
-                    margin-top:20px;
+                    margin-top:40px;
                     padding-left: 20px;
                     padding-right: 20px;
                 }
@@ -170,7 +172,7 @@ export const StyledProjects = styled.section `
                 border-bottom: 1px solid #1d7874;
                 @media screen and (max-width: 1200px) {
                     text-align: center;
-                    margin-bottom: 20px;
+                    margin-bottom: 60px;
                 }
                 @media screen and (max-width: 1000px) {
                     text-align: center;
